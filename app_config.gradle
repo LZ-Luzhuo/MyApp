@@ -1,0 +1,10 @@
+ext {
+    // isRelease=false时，可让lib单独运行
+    isRelease = true
+
+    sdk = [
+            compileSdk: 33,
+            minSdk: 16,
+            targetSdk: 33
+    ]
+}
