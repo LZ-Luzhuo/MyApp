@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void gotoLive(View view) {
-        // startActivity(new android.content.Intent(this, LiveMainActivity.class));
+        // startActivity(new android.content.Intent(this, LiveMainActivity.class)); hello
         ARouter.getInstance().build(BaseRouterPath.liveMainActivityPath).navigation();
     }
 
