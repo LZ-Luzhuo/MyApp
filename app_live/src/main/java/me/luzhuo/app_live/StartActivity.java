@@ -14,7 +14,7 @@ public class StartActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // startActivity(new Intent(this, LiveMainActivity.class)); hello
+        // startActivity(new Intent(this, LiveMainActivity.class)); helloword
         ARouter.getInstance().build(BaseRouterPath.liveMainActivityPath).navigation();
     }
 }
